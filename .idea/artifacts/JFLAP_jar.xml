@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JFLAP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JFLAP_jar</output-path>
+    <root id="archive" name="JFLAP.jar">
+      <element id="module-output" name="JFLAP" />
+    </root>
+  </artifact>
+</component>

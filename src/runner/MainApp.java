@@ -11,6 +11,7 @@ import java.awt.event.ActionListener;
 public class MainApp {
     public static void main(String[] args) {
         JFrame window = new JFrame("JFLAP LENGUJES FORMALES");
+        window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         window.setSize(400, 300);
         JButton button1 = new JButton("Gramaticas");
         JButton button2 = new JButton("Automatas de Pila");
@@ -26,14 +27,13 @@ public class MainApp {
             @Override
             public void actionPerformed(ActionEvent e) {
                 new ControllerAP();
-                System.out.println("Se ha hecho clic en el botón");
             }
         };
         ActionListener listener3 = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Este código se ejecutará cuando se haga clic en el botón
-                System.out.println("Se ha hecho clic en el botón");
+                //Para Expresiones regulares
             }
         };
         ActionListener listener4 = new ActionListener() {
